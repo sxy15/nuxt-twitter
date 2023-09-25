@@ -26,6 +26,7 @@
 </template>
 
 <script setup lang="ts">
-const darkMode = ref(false)
+import { ref } from 'vue'
 
+const darkMode = ref(false)
 </script>

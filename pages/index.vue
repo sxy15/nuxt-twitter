@@ -5,7 +5,7 @@
 </template>
 
 <script setup lang="ts">
-  import { ref } from 'vue'
-  
-  const loading = ref(false)
+import { ref, onMounted } from 'vue'
+
+const loading = ref(false)
 </script>
